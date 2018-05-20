@@ -1,0 +1,53 @@
+{
+  "name": "vue-uno-card",
+  "version": "1.0.0",
+  "description": "A Vue.js UNO card",
+  "author": "Filipe Meneses <flcmeneses@gmail.com>",
+  "private": false,
+  "main": "dist/js/vue-uno-card.js",
+  "scripts": {
+    "build": "webpack -p --config build/webpack.prod.conf.js",
+    "doc": "webpack -p --config build/webpack.doc.conf.js",
+    "dev": "webpack-dev-server --inline --port 3001 --hot --config build/webpack.dev.conf.js"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-eslint": "^7.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-plugin-transform-runtime": "^6.0.0",
+    "babel-preset-es2015": "^6.0.0",
+    "babel-preset-stage-2": "^6.0.0",
+    "babel-register": "^6.0.0",
+    "babel-runtime": "^6.0.0",
+    "css-loader": "^0.25.0",
+    "eslint": "^3.7.1",
+    "eslint-config-standard": "^6.1.0",
+    "eslint-friendly-formatter": "^2.0.5",
+    "eslint-loader": "^1.5.0",
+    "eslint-plugin-html": "^1.3.0",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-standard": "^2.0.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "friendly-errors-webpack-plugin": "^1.3.1",
+    "function-bind": "^1.0.2",
+    "html-webpack-plugin": "^2.8.1",
+    "inject-loader": "^2.0.1",
+    "isparta-loader": "^2.0.0",
+    "lolex": "^1.4.0",
+    "mocha": "^3.1.0",
+    "node-sass": "^4.5.0",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^6.0.2",
+    "scss-loader": "0.0.1",
+    "sinon": "^1.17.3",
+    "sinon-chai": "^2.8.0",
+    "vue-loader": "^9.4.0",
+    "vue-style-loader": "^1.0.0",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-merge": "^0.14.1"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  }
+}
